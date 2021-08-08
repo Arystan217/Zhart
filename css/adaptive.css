@@ -1,0 +1,127 @@
+@media (max-width: 870px) {
+  .header__nav {
+    display: none;
+  }
+  .burger-icon {
+    display: block;
+  }
+}
+@media (max-width: 850px) {
+  .hero__title {
+    font-size: 35px;
+  }
+  .subtitle {
+    font-size: 17px;
+  }
+  .hero__button {
+    padding: 10px 28px;
+    font-size: 19px;
+  }
+  .hero__img {
+    max-width: 46%;
+  }
+  .about__text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 710px) {
+  .about__img {
+    object-fit: cover;
+    height: 200px;
+  }
+  .services__content-text {
+    font-size: 18px;
+  }
+  
+  footer {
+    padding-bottom: 0px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer__item,
+  .footer__item:first-child {
+    width: 43%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 620px) {
+  .hero {
+    margin-top: 10px;
+  }
+  .hero-container {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .hero__img {
+    max-width: 70%;
+    margin-bottom: 15px;
+  }
+  .offer {
+    max-width: 100%;
+  }
+
+  .about__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about__img {
+    object-fit: contain;
+    height: auto;
+    max-width: 70%;
+    margin-bottom: 24px;
+  }
+  .about__text {
+    max-width: 100%;
+  }
+
+  .services__content-item {
+    max-width: 80%;
+    margin-bottom: 25px;
+    border: 2px solid #E84118;
+  }
+}
+@media (max-width: 600px) {
+  .contacts__content {
+    flex-wrap: wrap-reverse;
+  }
+  .contacts__content-item {
+    width: 100%;
+  }
+  .contacts__content-item:last-child {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 450px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer__item,
+  .footer__item:first-child {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__item:last-child {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 370px) {
+  .hero__img,
+  .about__img {
+    max-width: 85%;
+  }
+}
+
+
+
+
+@media (min-width: 870px) {
+  .burger {
+    display: none;
+  }
+}
